@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Colossus.cs
+    - Assets/Colossus.cs.meta
+    - Assets/Coromper.cs
+    - Assets/Coromper.cs.meta
+    - Assets/Esqueleto.cs
+    - Assets/Esqueleto.cs.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/Demigiant.meta
+    - Assets/Plugins/Demigiant/DOTween.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.XML
+    - Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb.meta
+    - Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+    - Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+    - Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta
+    - Assets/Plugins/Demigiant/DOTween/readme.txt
+    - Assets/Plugins/Demigiant/DOTween/readme.txt.meta
+    - Assets/Prefabs/Aliado.prefab
+    - Assets/Prefabs/Aliado.prefab.meta
+    - Assets/Prefabs/Colossus.prefab
+    - Assets/Prefabs/Colossus.prefab.meta
+    - Assets/Prefabs/Entidade.prefab
+    - Assets/Prefabs/Entidade.prefab.meta
+    - Assets/Prefabs/Esqueleto.prefab
+    - Assets/Prefabs/Esqueleto.prefab.meta
+    - Assets/Prefabs/Inimigo.prefab
+    - Assets/Prefabs/Nevoa.prefab
+    - Assets/Prefabs/Nevoa.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/DOTweenSettings.asset
+    - Assets/Resources/DOTweenSettings.asset.meta
+    - Assets/Runa.cs
+    - Assets/Runa.cs.meta
+    - Assets/Runa_Colossus.cs
+    - Assets/Runa_Colossus.cs.meta
+    - Assets/Runa_Curar.cs
+    - Assets/Runa_Curar.cs.meta
+    - Assets/Runa_Explosao.cs
+    - Assets/Runa_Explosao.cs.meta
+    - Assets/Runa_Reviver.cs
+    - Assets/Runa_Reviver.cs.meta
+    - Assets/Scenes/Teste Skils.unity
+    - Assets/Scripts/Andar.cs
+    - Assets/Scripts/Andar.cs.meta
+    - Assets/Scripts/EditarInspector.cs
+    - Assets/Scripts/EditarInspector.cs.meta
+    - Assets/Scripts/Entidade.meta
+    - Assets/Scripts/Entidade/Selecao_De_Classe.cs
+    - Assets/Scripts/Entidade/Selecao_De_Classe.cs.meta
+    - Assets/Scripts/Inimigos/Inimigo.cs
+    - Assets/Scripts/Jogador.meta
+    - Assets/Scripts/Jogador/Classes.meta
+    - Assets/Scripts/Jogador/Classes/Aliados.meta
+    - Assets/Scripts/Jogador/Classes/Aliados/Aliado.cs
+    - Assets/Scripts/Jogador/Classes/Aliados/Aliado.cs.meta
+    - Assets/Scripts/Jogador/Classes/Fisica.meta
+    - Assets/Scripts/Jogador/Classes/Fisica/Classe_Fisica.cs
+    - Assets/Scripts/Jogador/Classes/Fisica/Classe_Fisica.cs.meta
+    - Assets/Scripts/Jogador/Classes/Habilidades.meta
+    - Assets/Scripts/Jogador/Classes/Habilidades/Invoker.meta
+    - Assets/Scripts/Jogador/Classes/Habilidades/Necromante.meta
+    - Assets/Scripts/Jogador/Classes/Habilidades/Necromante/SangueSugaHabilidade.cs
+    - Assets/Scripts/Jogador/Classes/Habilidades/Necromante/SangueSugaHabilidade.cs.meta
+    - Assets/Scripts/Jogador/Classes/Jogador_Habilidades_Magica.cs
+    - Assets/Scripts/Jogador/Classes/Jogador_Habilidades_Magica.cs.meta
+    - Assets/Scripts/Jogador/Classes/Magica.meta
+    - Assets/Scripts/Jogador/Classes/Magica/Bomba.cs
+    - Assets/Scripts/Jogador/Classes/Magica/Bomba.cs.meta
+    - Assets/Scripts/Jogador/Classes/Magica/Classe_Magica.cs
+    - Assets/Scripts/Jogador/Classes/Magica/Classe_Magica.cs.meta
+    - Assets/Scripts/Jogador/Classes/Permitir_Troca_Classe.cs
+    - Assets/Scripts/Jogador/Classes/Permitir_Troca_Classe.cs.meta
+    - Assets/Scripts/Jogador/Jogador_Status.cs
+    - Assets/Scripts/Jogador/Jogador_Status.cs.meta
+    - Assets/Scripts/Jogador/Slider_Jogador_Mana.cs
+    - Assets/Scripts/Jogador/Slider_Jogador_Mana.cs.meta
+    - Assets/Scripts/Jogador/Slider_Jogador_Vida.cs
+    - Assets/Scripts/Jogador/Slider_Jogador_Vida.cs.meta
+    - Assets/Scripts/Mecanicas.meta
+    - Assets/Scripts/Mecanicas/Movimentar.meta
+    - Assets/Scripts/Mecanicas/Movimentar/Seguir.cs
+    - Assets/Scripts/Mecanicas/Movimentar/Seguir.cs.meta
+    - Assets/Scripts/Mecanicas/Status.meta
+    - Assets/Scripts/Mecanicas/Status/InspectorEditorStatus.cs
+    - Assets/Scripts/Mecanicas/Status/InspectorEditorStatus.cs.meta
+    - Assets/Scripts/Mecanicas/Status/Status.cs
+    - Assets/Scripts/Mecanicas/Status/Status.cs.meta
+    - Assets/Scripts/Rotacionar.cs
+    - Assets/Scripts/Rotacionar.cs.meta
+    - Assets/Scripts/Utilidades.meta
+    - Assets/Scripts/Utilidades/IA.cs
+    - Assets/Scripts/Utilidades/IA.cs.meta
+    - Assets/Scripts/Utilidades/Informacoes.cs
+    - Assets/Scripts/Utilidades/Informacoes.cs.meta
+    - Assets/Scripts/Utilidades/Skil_Shot.cs
+    - Assets/Scripts/Utilidades/Skil_Shot.cs.meta
+    - Assets/Scripts/Utilidades/Skill_Vai_e_Volta.cs
+    - Assets/Scripts/Utilidades/Skill_Vai_e_Volta.cs.meta
+    - Assets/Sistema de Vantagem.meta
+    - Assets/Sistema de Vantagem/Atributos.cs
+    - Assets/Sistema de Vantagem/Atributos.cs.meta
+    - Assets/TCC.meta
+    - Assets/TCC/ED_Mimic.cs
+    - Assets/TCC/ED_Mimic.cs.meta
+    - Assets/TCC/ED_Tiro.cs
+    - Assets/TCC/ED_Tiro.cs.meta
+    - Assets/TCC/Mimic.prefab
+    - Assets/TCC/Mimic.prefab.meta
+    - Assets/TCC/Tiro.prefab
+    - Assets/TCC/Tiro.prefab.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: Ed
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
