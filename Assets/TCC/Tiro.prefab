@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 914109162615307107}
   - component: {fileID: 914109162615307104}
   - component: {fileID: 914109162615307105}
-  - component: {fileID: 914109162615307106}
   - component: {fileID: 2050112877751173859}
   - component: {fileID: 383859818859817725}
   - component: {fileID: 3057685333483762404}
+  - component: {fileID: 7614283463044476444}
   m_Layer: 0
   m_Name: Tiro
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914109162615307111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.02, y: 1, z: -2.21}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 914109163689952328}
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d14945351d4276146ab0295942338d63, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,24 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &914109162615307106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914109162615307111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 126ec3ea6f926b147836e7a58fcc5ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dano: 0
-  Distancia: 2
-  Velocidade: 10
-  Destino: {fileID: 914109163689952328}
-  Origem: {x: 0, y: 0, z: 0}
-  Area: []
 --- !u!135 &2050112877751173859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -150,7 +132,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4ccb66ba3d15240458492877fc28ae91, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -237,6 +219,24 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &7614283463044476444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914109162615307111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126ec3ea6f926b147836e7a58fcc5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dano: 20
+  Distancia: 10
+  Velocidade: 2
+  Destino: {fileID: 914109163689952328}
+  Origem: {x: 0, y: 0, z: 0}
+  Area: []
 --- !u!1 &914109163689952329
 GameObject:
   m_ObjectHideFlags: 0

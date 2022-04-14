@@ -57,5 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b664574eec4f1a498580c805c633983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dica: "Lembra que o que altera o tamanho da \narea  e o Radius do Collider e nois
+    e fuiz."
   Dano: 10
   Tempo: 5

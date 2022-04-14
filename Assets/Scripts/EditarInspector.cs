@@ -75,7 +75,5 @@ public class EditarInspector : MonoBehaviour
                       DEF,
                       FOR;
        }
-
-
      */
 }

@@ -36,7 +36,7 @@ public class ED_Tiro : MonoBehaviour
             /*
             Lembrar de troca o codigo de vida pra o de vida do Ian
             */
-            Area[Contador].gameObject.GetComponent<Inimigo>().Vida -= Dano;
+            Area[Contador].gameObject.GetComponent<INIStatus>().vida -= Dano;
             Destroy(this.gameObject);
         }
     }
