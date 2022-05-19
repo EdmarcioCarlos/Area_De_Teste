@@ -23,9 +23,10 @@ public class ED_Mimic : MonoBehaviour
     [Tooltip("Controla as animaçoes do MIMIC")]
     public Animator Controlador_Animator;
 
-    private INIStatus RefVida;
+    public float RefVida;
     void Start()
     {
+        RefVida = this.gameObject.GetComponent<BASEStatus>().vida;
         Vida_AntDano = Vida_Atual;
         Controlador_Animator = this.gameObject.GetComponent<Animator>();
         Barra_Vida.SetActive(false);
@@ -33,7 +34,7 @@ public class ED_Mimic : MonoBehaviour
     }
     void Update()
     {
-        Vida_Atual = RefVida.vida;
+        Vida_Atual = RefVida;
         Controlador_Animator.SetFloat("Vida", Vida_Atual);
 
         if(Vida_Atual<=0)
@@ -46,7 +47,7 @@ public class ED_Mimic : MonoBehaviour
     }
     private void OnTriggerEnter( Collider Outro)
     {
-        if(Outro.gameObject.tag =="Player")
+        if(Outro.gameObject.name =="Invoker_New")
         {
             Controlador_Animator.SetBool("Alvo", true);
             Barra_Vida.SetActive(true);
